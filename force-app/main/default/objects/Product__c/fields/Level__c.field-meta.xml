@@ -31,11 +31,6 @@
                 <label>Explorer</label>
             </value>
             <value>
-                <fullName>Adventurer</fullName>
-                <default>false</default>
-                <label>Adventurer</label>
-            </value>
-            <value>
                 <fullName>Mountaineer</fullName>
                 <default>false</default>
                 <label>Mountaineer</label>
