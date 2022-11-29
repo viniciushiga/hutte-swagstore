@@ -10,4 +10,5 @@ section > h1 {
 :host {
     --slds-c-icon-color-foreground: white;
     --slds-c-icon-color-background: #8E84FF;
+    --lwc-brandAccessible: #8E84FF;
 }
