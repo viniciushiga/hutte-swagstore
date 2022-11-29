@@ -17,7 +17,7 @@ public class TestProductController {
                 MSRP__c = 1000,
                 Category__c = 'Mountain',
                 Level__c = 'Scout',
-                Material__c = 'Carbon',
+                Material__c = 'Metal',
                 Product_Family__c = family.Id
             ),
             new Product__c(
@@ -25,7 +25,7 @@ public class TestProductController {
                 MSRP__c = 1200,
                 Category__c = 'Mountain',
                 Level__c = 'Ranger',
-                Material__c = 'Carbon',
+                Material__c = 'Metal',
                 Product_Family__c = family.Id
             )
         };
@@ -38,7 +38,7 @@ public class TestProductController {
         filters.maxPrice = 2000;
         filters.categories = new List<String>{ 'Mountain' };
         filters.levels = new List<String>{ 'Scout' };
-        filters.materials = new List<String>{ 'Carbon' };
+        filters.materials = new List<String>{ 'Metal' };
 
         PagedResult result = ProductController.getProducts(filters, 1);
 

@@ -11,7 +11,7 @@
             "Category__c": "Mountain",
             "Level__c": "Ranger",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox1.jpg",
-            "Material__c": "Carbon"
+            "Material__c": "Metal"
         },
         {
             "Id": "a039A000000lqLcQAI",
@@ -21,7 +21,7 @@
             "Category__c": "Mountain",
             "Level__c": "Ranger",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox2.jpg",
-            "Material__c": "Carbon"
+            "Material__c": "Metal"
         },
         {
             "Id": "a039A000000lqLdQAI",
@@ -31,7 +31,7 @@
             "Category__c": "Mountain",
             "Level__c": "Ranger",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox3.jpg",
-            "Material__c": "Carbon"
+            "Material__c": "Metal"
         },
         {
             "Id": "a039A000000lqLeQAI",
@@ -41,7 +41,7 @@
             "Category__c": "Mountain",
             "Level__c": "Ranger",
             "Picture_URL__c": "https://s3-us-west-1.amazonaws.com/sfdc-demo/ebikes/dynamox4.jpg",
-            "Material__c": "Carbon"
+            "Material__c": "Metal"
         },
         {
             "Id": "a039A000000lqLfQAI",
