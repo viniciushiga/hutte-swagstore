@@ -6,7 +6,7 @@ push_script: |
   sfdx force:source:push -f --loglevel fatal 1>/dev/null
   sfdx force:user:permset:assign -n swagstore
   sfdx force:source:deploy -p post-deploy
-  echo 'y' | sfdx plugins:install hutte
+# echo 'y' | sfdx plugins:install hutte
 # Shell script to run when pulling the source code from the scratch org.
 # Adding the "| hutte_track_changes" to the end of the pull command is important in order for
 # hutte to track which metadata was changed.
