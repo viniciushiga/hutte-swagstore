@@ -19,3 +19,6 @@ custom_scripts:
       description: Import seed data into the scratch org
       #run: sfdx force:data:tree:import -p ./data/sample-data-plan.json
       run: echo 'y' | sfdx plugins:install texei-sfdx-plugin && sfdx texei:data:import --inputdir ./data-texei
+    'Another Button':
+      description: Another button
+      run: echo 'Another button'
