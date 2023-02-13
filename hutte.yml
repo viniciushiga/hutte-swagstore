@@ -15,7 +15,7 @@ pull_script: |
 custom_scripts:
   # This scripts will be displayed on the scratch org's page
   scratch_org:
-    'Import seed data':
+    'Import seed data 2':
       description: Import seed data into the scratch org
       #run: sfdx force:data:tree:import -p ./data/sample-data-plan.json
       run: echo 'y' | sfdx plugins:install texei-sfdx-plugin && sfdx texei:data:import --inputdir ./data-texei
