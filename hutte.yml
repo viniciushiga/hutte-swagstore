@@ -3,9 +3,6 @@ version: 1.0
 # Shell script to run when pushing the source code to the scratch orgs.
 # It's a great place to automate tasks like permission set assignments or data loading.
 push_script: |
-  apk add nodejs --upgrade --repository https://dl-cdn.alpinelinux.org/alpine/edge/main
-  npm install --global npm
-
   sfdx force:source:push -f --loglevel fatal 1>/dev/null
   sfdx force:user:permset:assign -n swagstore
   sfdx force:source:deploy -p post-deploy
