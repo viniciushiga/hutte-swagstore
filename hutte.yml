@@ -21,4 +21,6 @@ custom_scripts:
       run: echo 'y' | sfdx plugins:install texei-sfdx-plugin && sfdx texei:data:import --inputdir ./data-texei
     'Another Button':
       description: Another button
-      run: echo 'Another button'
+      run: |
+        node --version
+        sfdx --version
