@@ -1,5 +1,6 @@
 @isTest
 public class TestOrderController {
+    String x = '';
     @testSetup
     static void setup() {
         Account acc = new Account(Name = 'Sample Account');
