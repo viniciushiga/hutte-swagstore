@@ -17,5 +17,17 @@ custom_scripts:
   scratch_org:
     'Import seed data 2':
       description: Import seed data into the scratch org
-      #run: sfdx force:data:tree:import -p ./data/sample-data-plan.json
-      run: echo 'y' | sfdx plugins:install texei-sfdx-plugin && sfdx texei:data:import --inputdir ./data-texei
+      run: |
+        echo 'importing seed data to the scratch org'
+        echo 'y' | sfdx plugins:install texei-sfdx-plugin && sfdx texei:data:import --inputdir ./data-texei
+    'Legacy button': |
+      echo 'exec button for scratch org'
+  sandbox:
+    'Import seed data Sandbox':
+      description: Import seed data into the sandbox
+      run: |
+        echo 'importing seed data to the sandbox'
+        echo 'y' | sfdx plugins:install texei-sfdx-plugin && sfdx texei:data:import --inputdir ./data-texei
+    'Legacy button': |
+      echo 'exec button for sandbox'
+      
